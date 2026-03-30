@@ -5,7 +5,7 @@ date: "2026-03-30"
 author: "Abdullah Alhaider"
 github: "cs4alhaider"
 twitter: "cs4alhaider"
-tags: ["swift", "spm", "packages", "tutorial"]
+tags: ["swift", "spm", "packages", "tutorial", "xcode"]
 excerpt: "Learn how to create, publish, and use Swift Package Collections — a powerful way to curate and discover Swift packages for your team or community."
 ---
 
@@ -237,6 +237,12 @@ Host the `docs/` folder via GitHub Pages and your collection stays up to date au
 - **Add summaries** — The `summary` field shows up in Xcode's package browser, making it easier for developers to pick the right package
 - **Version your collections** — Use semantic versioning in the collection metadata so consumers know when packages were added or removed
 - **Sign for trust** — Unsigned collections trigger warnings in Xcode and may be rejected by organizations with strict security policies
+
+## Further Reading
+
+- [SE-0291 — Package Collections](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0291-package-collections.md)
+- [Apple's swift-package-collection-generator](https://github.com/apple/swift-package-collection-generator)
+- [Swift Package Manager documentation](https://www.swift.org/documentation/package-manager/)
 
 ## Wrapping Up
 
