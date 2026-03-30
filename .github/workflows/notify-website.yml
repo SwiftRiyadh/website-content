@@ -1,0 +1,20 @@
+name: Notify Website to Rebuild
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Website Content Sync
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEBSITE_REPO_PAT }}
+          repository: swiftriyadh/website
+          event-type: content-updated
+          client-payload: '{"sha": "${{ github.sha }}", "actor": "${{ github.actor }}"}'

@@ -23,6 +23,70 @@ graph LR
 
 ---
 
+## Folder Structure
+
+```
+content/
+├── blog/
+│   └── ...
+│
+└── events/
+    └── ...
+```
+
+---
+
+## Content Formats
+
+### Blog Post (`content/blog/*.md`)
+
+```markdown
+---
+slug: "post-title"
+title: "Post Title"
+date: "2026-03-15"
+author: "Your Name"
+github: "yourusername"
+twitter: "yourusername"
+tags: ["tag1", "tag2"]
+excerpt: "Short description."
+cover: "https://example.com/image.jpg"
+---
+
+Content goes here...
+```
+
+**Required:** `slug`, `title`, `date`, `author`, `tags`
+**Optional:** `excerpt` (auto-generated from body), `github`, `twitter`, `cover`, `readingTime` (auto-calculated)
+
+### Event (`content/events/*.md`)
+
+```markdown
+---
+slug: "event-name"
+title: "Event Name"
+date: "2026-04-01"
+time: "18:30 - 21:00"
+location: "Venue, City"
+locationUrl: "https://maps.google.com/..."
+speakers:
+  - name: "Speaker Name"
+    twitter: "username"
+    github: "username"
+    linkedin: "username"
+tags: ["tag1", "tag2"]
+rsvpLink: "https://example.com/register"
+cover: "https://example.com/image.jpg"
+---
+
+Event details go here...
+```
+
+**Required:** `slug`, `title`, `date`, `time`, `location`, `speakers`, `tags`, `rsvpLink`
+**Optional:** `locationUrl`, `cover`, speaker social links (`twitter`, `github`, `linkedin`)
+
+---
+
 ## Tools
 
 | Tool | Description |
@@ -36,7 +100,7 @@ graph LR
 ## Contributing
 
 1. Create a new branch
-2. Add your markdown file in `content/blogs/` or `content/events/`
+2. Add your markdown file in `content/blog/` or `content/events/`
 3. Use the [Content Creator](https://swiftriyadh.com/tools/content-creator) or write markdown manually following the formats above
 4. Validate your content with the [Markdown Validator](https://swiftriyadh.com/tools/validator)
 5. Open a PR — once merged, it goes live automatically
