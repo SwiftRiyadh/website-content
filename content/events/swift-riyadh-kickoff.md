@@ -1,8 +1,8 @@
 ---
 slug: "swift-riyadh-kickoff"
 title: "Swift Riyadh Kickoff Meetup"
-date: "2026-04-15"
-time: "18:30 - 21:00"
+date: "2026-05-07"
+time: "19:30 - 21:00"
 location: "Tuwaiq Academy, Riyadh"
 locationUrl: "https://maps.app.goo.gl/tuwaiq-academy-riyadh"
 speakers:
@@ -14,7 +14,7 @@ speakers:
     twitter: "salehaldakheel"
     github: "salehaldakheel"
 tags: ["meetup", "networking", "kickoff"]
-rsvpLink: "#"
+rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSd9bHXIuIv3yeZU84t6QSU9R-NxfbquoI1A6nw2Ge0P6GOqsA/viewform?usp=publish-editor"
 ---
 
 ## Welcome to Swift Riyadh! 🎉
