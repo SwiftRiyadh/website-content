@@ -2,7 +2,7 @@
 slug: "swift-riyadh-kickoff"
 title: "Swift Riyadh Kickoff Meetup"
 date: "2026-05-07"
-time: "19:30 - 21:00"
+time: "19:30 - 21:30"
 location: "Tuwaiq Academy, Riyadh"
 locationUrl: "https://maps.app.goo.gl/tuwaiq-academy-riyadh"
 speakers:
