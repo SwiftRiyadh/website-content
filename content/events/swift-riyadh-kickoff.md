@@ -10,6 +10,11 @@ speakers:
     twitter: "cs4alhaider"
     github: "cs4alhaider"
     linkedin: "abdullah-alhaider"
+  - name: Farouk Abdullatif
+    twitter: "0xifarouk"
+    github: "0xifarouk"
+    linkedin: "0xifarouk"
+
 tags: ["meetup", "networking", "kickoff"]
 rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSd9bHXIuIv3yeZU84t6QSU9R-NxfbquoI1A6nw2Ge0P6GOqsA/viewform?usp=publish-editor"
 ---
@@ -22,6 +27,8 @@ Join us for the very first Swift Riyadh meetup! This is a kickoff event where we
 
 - **Welcome & Introduction** — Meet the organizers and learn about our plans for 2026
 - **Lightning Talks** — Quick 5-minute talks from community members
+  - Apple Foundation Models and Swift Package Manager by Abdullah Alhaider
+  - Getting Started with Embedded Swift by Farouk Abdullatif
 - **Networking** — Connect with fellow Swift developers over refreshments
 - **Q&A Session** — Share your ideas for future events and topics
 
